@@ -6,4 +6,4 @@
   This website is hosted on Github Pages [here](https://frxctxl.github.io/Personal_Website/), and the source code is available [here](https://github.com/Frxctxl/Personal_Website.git) for cloning.
 
 ## Credit
-  This website was developed with assistance from [W3schools](https://www.w3schools.com/css/default.asp), [Mozilla's Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS), and with the assistance of [Github Copilot](https://developer.mozilla.org/en-US/docs/Web/CSS) 
+  This website was developed with assistance from [W3schools](https://www.w3schools.com/css/default.asp), [Mozilla's Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS), and with the assistance of [Github Copilot](https://github.com/features/copilot) 
