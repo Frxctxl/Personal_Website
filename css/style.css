@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  background-color: #bde0fe;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background-color: #D1C3FF;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 5%;
+}
+
+header nav {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header nav a {
+  margin-left: clamp(10px, 3%, 20px);
+}
+
+.content {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 40% 60%;
+  grid-template-rows: 1fr 1fr;
+  height: clamp(80%, 90%, 100%);
+}
+
+.content div {
+  border: solid 1px aliceblue;
+  background-color: #A2D2FF;
+  border-radius: 10px;
+  padding: clamp(2%, 5%, 10%);
+  margin: 10px;
+  transition: background-color 0.3s;
+  display: flex;
+  flex-direction: column;
+}
+
+.content ul li {
+  margin: 3%;
+}
+
+.content p {
+  text-indent: 3%;
+  margin: 1% 0;
+}
+
+div.port-work {
+  position: relative;
+  width: 60%;
+  height: 50%;
+  padding: 1%;
+  margin: 1%;
+  background-color: mediumpurple;
+}
+
+.port-work img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+div.caption {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: darkgray;
+  padding: 5px;
+  color: #000;
+  text-align: center;
+}
+
+.content div:target {
+  background-color: #ffffff;
+}
+
+#about {
+  grid-column-start: 1;
+  grid-row-end: 3;
+}
+
+#portfolio {
+  grid-column-start: 2;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
